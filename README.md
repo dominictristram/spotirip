@@ -13,6 +13,12 @@ The following must be installed on the Mac on which it runs:
 - Homebrew
 - libmagic `brew install libmagic`
 
+Before using this script a one-time configuration is necessary. Launch Spotify and (without closing Spotify) launch piezo and configure it as follows:
+- change the 'source' dropdown to Spotify
+- click on the gear icon and type any value for title (the script will overwrite this)
+- change the 'quality' setting to either low or high 'internet distribution' options. This just means it writes mp3 rather than AAC. Using mp3 allows us to easily change the tags
+- quit Piezo properly (using quit from the menu). It will remember these settings next time it launches, so you won't need to set them again.
+
 # Usage:
 
 Record a given track by ID - supply ID on command line, eg:
