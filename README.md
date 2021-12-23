@@ -9,6 +9,9 @@ The following must be installed on the Mac on which it runs:
 - [Piezo](https://rogueamoeba.com/piezo/)
 - Spotify
 - python > 3.5
+- eyed3 `pip3 install eyed3`
+- Homebrew
+- libmagic `brew install libmagic`
 
 # Usage:
 
