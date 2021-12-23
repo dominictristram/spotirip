@@ -3,7 +3,8 @@ Record a track from Spotify as a tagged mp3 on a Mac.
 
 Initial version by Dominic Tristram 23/12/2021
 
-# Requires the following to be installed on the Mac on which it runs:
+# Requirements
+The following must be installed on the Mac on which it runs:
    - Piezo: https://rogueamoeba.com/piezo/
    - Spotify
    - python > 3.5
