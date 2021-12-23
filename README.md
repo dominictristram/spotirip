@@ -11,8 +11,11 @@ The following must be installed on the Mac on which it runs:
 
 # Usage:
 
-Record a given track by ID - supply ID on command line, eg: python3 spotirip.py spotify:track:21cp8L9Pei4AgysZVihjSv
-Record the track currently playing - no command line parameter, eg: python3 spotirip.py
+Record a given track by ID - supply ID on command line, eg:
+`python3 spotirip.py spotify:track:21cp8L9Pei4AgysZVihjSv`
+
+Record the track currently playing - no command line parameter, eg:
+`python3 spotirip.py`
 
 Based on [code by Bart Simons](https://bartsimons.me/ripping-spotify-songs-on-macos/)
 
