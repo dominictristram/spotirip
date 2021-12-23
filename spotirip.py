@@ -30,7 +30,7 @@ from pathlib import Path
 # Setup locations for files
 home = str(Path.home())
 piezoStorageLocation = home + '/Music/Piezo/'
-ripStorageLocation   = home + '/Music/Ripped/'
+ripStorageLocation   = home + '/Music/spotirip/'
 
 # Clear all previous recordings if they exist
 for f in os.listdir(piezoStorageLocation):
