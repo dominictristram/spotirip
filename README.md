@@ -4,7 +4,7 @@ Record a track from Spotify as a tagged mp3 on a Mac.
 Initial version by Dominic Tristram 23/12/2021
 
 # Requires the following to be installed on the Mac on which it runs:
-   - Piezo - https://rogueamoeba.com/piezo/
+   - Piezo: https://rogueamoeba.com/piezo/
    - Spotify
    - python > 3.5
 
@@ -14,6 +14,7 @@ Record a given track by ID - supply ID on command line, eg: python3 spotirip.py 
 Record the track currently playing - no command line parameter, eg: python3 spotirip.py
 
 Based on code by Bart Simons - https://bartsimons.me/ripping-spotify-songs-on-macos/
+
 I have made the following changes:
    - if no command line parameter is given record the current song
    - use the length of the track rather than checking on Spotify every half a second
