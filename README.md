@@ -5,9 +5,9 @@ Initial version by Dominic Tristram 23/12/2021
 
 # Requirements
 The following must be installed on the Mac on which it runs:
-   - [Piezo](https://rogueamoeba.com/piezo/)
-   - Spotify
-   - python > 3.5
+- [Piezo](https://rogueamoeba.com/piezo/)
+- Spotify
+- python > 3.5
 
 # Usage:
 
