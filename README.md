@@ -9,8 +9,8 @@ The following must be installed on the Mac on which it runs:
 - [Piezo](https://rogueamoeba.com/piezo/)
 - Spotify
 - python > 3.5
-- eyed3 `pip3 install eyed3`
 - Homebrew
+- eyed3 `pip3 install eyed3`
 - libmagic `brew install libmagic`
 
 Before using this script a one-time configuration is necessary. Launch Spotify and (without closing Spotify) launch piezo and configure it as follows:
@@ -18,6 +18,7 @@ Before using this script a one-time configuration is necessary. Launch Spotify a
 - click on the gear icon and type any value for title (the script will overwrite this)
 - change the 'quality' setting to either low or high 'internet distribution' options. This just means it writes mp3 rather than AAC. Using mp3 allows us to easily change the tags
 - quit Piezo properly (using quit from the menu). It will remember these settings next time it launches, so you won't need to set them again.
+- the first time you run the script you will need to grant accessibility access to Terminal, then ctrl-c out and run again.
 
 # Usage:
 
